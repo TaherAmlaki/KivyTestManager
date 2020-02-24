@@ -8,4 +8,7 @@ class PageNames(Enum):
     @property
     def name(self):
         return self.value
-    
+
+
+class ButtonColor(Enum):
+    NORMAL = [0, 1, 1, 1]
