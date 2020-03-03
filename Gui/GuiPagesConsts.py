@@ -4,6 +4,7 @@ from enum import Enum
 class PageNames(Enum):
     BACKGROUND = "background"
     HOME_PAGE = "HomePage"
+    CONFIGURATION = "Configuration"
 
     @property
     def name(self):
@@ -11,4 +12,4 @@ class PageNames(Enum):
 
 
 class ButtonColor(Enum):
-    NORMAL = [0, 1, 1, 1]
+    NORMAL = [0, 0.5, 1.0, 1]
